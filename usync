@@ -19,6 +19,10 @@ musicdir=iTunes-Music
 # Path is relative from root. Omit the trailing /.
 playlistdir=Playlists
 
+# If you sometimes delete music from your library, and want to mirror
+# those deletes to the target drive, set this to 1.
+delete=0
+
 src="$HOME/Music/iTunes/iTunes Media/Music/"
 destroot="/Volumes/$volume"
 dest="$destroot/$musicdir/"
@@ -32,8 +36,13 @@ if [ ! -d "$dest" ]; then
 	mkdir "$dest"
 fi
 
+deleteopt=""
+if [ "$delete" -eq 1 ]; then
+	deleteopt=--delete
+fi
+
 # Perform the sync. --modify-window works around FAT32 time rounding.
-time rsync --archive --verbose --exclude='*.itlp' --exclude='.*' --exclude='*.m4v' --modify-window=1 "$src" "$dest"
+time rsync --archive --verbose --exclude='*.itlp' --exclude='.*' --exclude='*.m4v' --modify-window=1 $deleteopt "$src" "$dest"
 
 # If playlists are there, translate them.
 for file in "$destroot"/"$playlistdir"/*.m3u; do
