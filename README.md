@@ -137,11 +137,11 @@ Some notes on artwork:
 
 * Array (from JCC) has discovered there's a size limit on the artwork. Old iTunes artwork was 600x600, new iTunes artwork seems to be 1400x1400. Can definitely say UConnect doesn't like the new stuff, but 600x600 seems to work.
 
-* This script will resize embedded artwork (may also embed it for you if it wasn't already), I haven't tried it. It also costs $1.99:
+* This script will resize embedded artwork (may also embed it for you if it wasn't already--I haven't tried it. It also costs $1.99):
 
  http://dougscripts.com/itunes/scripts/ss.php?sp=reapplydownsized
 
-* Several tools have also been identified in the links above that will do embedding and resizing, some for pay and some not. area51tazz (from JCC) posted a free resizing script in the first How To thread.
+* Several tools have also been identified in the JCC links above that will do embedding and resizing, some for pay and some not. area51tazz (from JCC) posted a resizing Automator script in the first How To thread.
 
  www.mynetstuff.com/files/resize.zip
 
