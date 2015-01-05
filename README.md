@@ -112,7 +112,7 @@ Some notes on the file sync:
 Some notes on playlists:
 ------------------------
 
-* This script will take playlists exported from iTunes (no external tools necessary) and make them work on the drive. It will only touch playlists in the directory set in the playlistdir variable. By default, this is /Playlists. If the directory doesn't exist, it will just skip that part.
+* This script will take playlists exported from iTunes (no external tools necessary) and make them work on the drive. It will only touch playlists in the directory set in the `$playlistdir` variable. By default, this is `/Playlists`. If the directory doesn't exist, it will just skip that part.
 
 * You can use File | Library | Export Playlist from iTunes to export to the drive. The paths will export pointing back at your iTunes library, but this script will modify them.
 
@@ -122,7 +122,7 @@ Some notes on playlists:
 
  http://dougscripts.com/itunes/scripts/ss.php?sp=batchexportplaylists
 
-* If the playlist refers to something not in the main iTunes media folder (and thus not copied), that path won't be converted and UConnect will ignore that entry. I think it'll honor the rest of the playlist.
+* If the playlist refers to something not in the main iTunes Media folder (and thus not copied), that path won't be converted and UConnect will ignore that entry. I think it'll honor the rest of the playlist.
 
 Some notes on artwork:
 ----------------------
