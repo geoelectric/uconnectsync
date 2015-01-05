@@ -9,7 +9,7 @@
 # Will sync everything but iTunes LPs and videos.
 
 # Change this to your USB/SD card name.
-volume=TRAILHAWK
+volume=UCONNECT
 
 # If you want your music in a different directory name, change this.
 # Path is relative from root. Omit the trailing /.
