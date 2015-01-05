@@ -158,7 +158,7 @@ Some tech notes:
 
 * Depending on how you export your playlists, you might end up with either a straight filepath, or a `file://` URI in your .m3u. UConnect will not follow a `file://` URI, so that needs to be changed to a path (which the script does).
 
-* Despite advice I've seen to the contrary, UConnect (at least the .32 version with the 2015s) *does not* need playlists to be in any particular directory. It finds them fine in root, /Playlists, same directory as the music, whatever.
+* Despite advice I've seen to the contrary, UConnect (at least the .32 version with the 2015s) *does not* need playlists to be in any particular directory. It finds them fine in root, `/Playlists`, same directory as the music, whatever.
 
 * Also despite advice I've seen to the contrary, UConnect *does not* like relative paths in the .m3us. You need to use an absolute path from the root of the drive, like `/iTunes-Music/Artist/Album/song.mp3`
 
