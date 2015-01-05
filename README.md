@@ -27,7 +27,7 @@ Requirements:
 
 * Only copy new/changed files, both to save sync time and because the Cherokee takes forever to refresh its database if you update everything.
 
-* Support exported playlists, as I use a playlist-per-album for recent purchases so I can pick them out of the other 550-odd albums on the drive.
+* Support exported playlists, as I use a playlist-per-album for recent purchases so I can pick them out of the other 760-odd albums on the drive.
 
 * Support at least 128 GB, preferably more.
 
