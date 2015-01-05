@@ -101,7 +101,7 @@ Some notes on the file sync:
 
 * Files that haven't physically changed won't be copied again (rsync is used from the script).
 
-* For comparison, 90 GB music takes 20 minutes on a full sync for me, but 0.2 seconds if nothing has changed. Most of the time it's a minute or less for a few albums worth.
+* For comparison, 90 GB music takes 20 minutes on a first copy for me, but 0.2 seconds for subsequent syncs if nothing has changed. Most of the time it's a minute or less for a few albums worth of purchases plus whatever iTunes Match decided to touch in the background.
 
 * iTunes LPs and videos are skipped. I don't currently skip the album insert pdfs, since they like to sneak into playlists, but a later version might. I think UConnect ignores them anyway.
 
